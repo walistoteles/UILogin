@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UILogin.MainPage">
+
+
+    <StackLayout>
+       
+            <Grid>
+                <StackLayout Padding="0" Margin="0">
+                <Frame BackgroundColor="MediumPurple" HeightRequest="120" HorizontalOptions="FillAndExpand">
+                    
+                </Frame>
+
+                </StackLayout>
+                
+                <StackLayout Margin="10,110,15,0">
+
+                <Frame BackgroundColor="White" HasShadow="True" HeightRequest="320" HorizontalOptions="FillAndExpand" CornerRadius="10">
+                    
+                    <StackLayout >
+                        
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label Text="SIGN IN" TextColor="Black" FontSize="Medium" FontAttributes="Bold"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,25,0,0" >
+
+                            <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="30" WidthRequest="30" Padding="0" HorizontalOptions="Start" Margin="7">
+                                        
+                                    </Frame>
+
+                                    <Entry x:Name="EmailEntry" Placeholder="Email" TextColor="Purple" HorizontalOptions="FillAndExpand" Margin="0,0,51,0"/>
+
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="30" WidthRequest="30" Padding="0" HorizontalOptions="Start" Margin="7">
+
+                                    </Frame>
+
+                                    <Entry x:Name="PassowordEntry" Placeholder="Password" TextColor="Purple" HorizontalOptions="FillAndExpand" Margin="0,0,51,0" IsPassword="True"/>
+
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox x:Name="RemenberUser" IsChecked="False" Color="Purple"/>
+                            <Label Text="Remember Me" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" />
+                            
+                            <Label Text="Forgot Password" HorizontalTextAlignment="End" TextColor="Purple" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center" FontAttributes="Bold"/>
+
+                        </StackLayout>
+
+                        <Button Text="SIGN IN" BackgroundColor="Purple" TextColor="White" FontAttributes="Bold" CornerRadius="20"/>
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                            <Label Text="Still  Not Connected ?" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" />
+                            <Label Text="Sign Up" HorizontalTextAlignment="End" TextColor="Purple" HorizontalOptions="Fill" VerticalTextAlignment="Center" FontAttributes="Bold"/>
+
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+
+                 
+                 
+                    
+                </Frame>
+                    
+                </StackLayout>
+
+            </Grid>
+      
+    </StackLayout>
+
+</ContentPage>
