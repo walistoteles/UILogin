@@ -1,6 +1,6 @@
 # PAGINA DE LOGIN "ELEGANTE" 🤜🤛
 
-<img src="https://user-images.githubusercontent.com/54097213/139076613-dba15db2-5381-4ae2-8bcd-b3646dafb0f9.gif"/>
+<img src="https://user-images.githubusercontent.com/54097213/139091447-4d06b3a3-774c-433f-a8ba-a2661a2fcf8d.gif"/>
 
 `Feito no`       `Linguagem`
 
